@@ -2,6 +2,16 @@
 #include <cmath>
 using namespace std;
 
+double hitungBiayaTiket(int jumlahStasiun) {
+    // Tarif dasar per stasiun
+    const double tarifPerStasiun = 5000.0;
+    
+    // Menghitung total biaya
+    double totalBiaya = jumlahStasiun * tarifPerStasiun;
+    
+    return totalBiaya;
+}
+
 int main() {
     int stasiunAwal, stasiunTujuan;
 
