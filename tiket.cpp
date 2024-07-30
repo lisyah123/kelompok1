@@ -2,22 +2,6 @@
 #include <cmath>
 using namespace std;
 
-// Fungsi untuk menghitung biaya tiket berdasarkan jumlah stasiun yang dilewati
-double hitungBiayaTiket(int jumlahStasiun) {
-    // Tarif dasar per stasiun
-    const double tarifPerStasiun = 5000.0;
-    
-    // Menghitung total biaya
-    double totalBiaya = jumlahStasiun * tarifPerStasiun;
-    
-    return totalBiaya;
-}
-
-// Fungsi untuk memeriksa validitas stasiun
-bool validStasiun(int stasiun) {
-    return stasiun >= 1 && stasiun <= 5;
-}
-
 int main() {
     int stasiunAwal, stasiunTujuan;
 
