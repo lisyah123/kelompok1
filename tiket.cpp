@@ -41,4 +41,8 @@ int main() {
         return 1;
     }
     
+    if (!validStasiun(stasiunTujuan)) {
+        cout << "Stasiun yang anda tuju tidak ada." << endl;
+        return 1;
+    }
 }
