@@ -40,6 +40,9 @@ int main() {
         cout << "Stasiun yang anda pilih tidak ada." << endl;
         return 1;
     }
+
+    cout << "Stasiun tujuan: ";
+    cin >> stasiunTujuan;
     
     if (!validStasiun(stasiunTujuan)) {
         cout << "Stasiun yang anda tuju tidak ada." << endl;
