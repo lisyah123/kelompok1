@@ -35,4 +35,10 @@ int main() {
     
     cout << "Stasiun awal: ";
     cin >> stasiunAwal;
+
+    if (!validStasiun(stasiunAwal)) {
+        cout << "Stasiun yang anda pilih tidak ada." << endl;
+        return 1;
+    }
+    
 }
