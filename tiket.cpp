@@ -48,4 +48,8 @@ int main() {
         cout << "Stasiun yang anda tuju tidak ada." << endl;
         return 1;
     }
+
+    int jumlahStasiun = abs(stasiunTujuan - stasiunAwal) + 1;
+    
+    double biayaTiket = hitungBiayaTiket(jumlahStasiun);
 }
